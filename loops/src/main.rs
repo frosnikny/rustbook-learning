@@ -53,7 +53,7 @@ fn main() {
         println!("the value is: {element}");
     }
     // Range (1..4) - метод .rev добавит обратный отсчёт
-    for number in (1..4) {
+    for number in 1..4 {
         println!("{number}!");
     }
     println!("LIFTOFF!!!");
